@@ -4,7 +4,7 @@ import "./index.css";
 import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
-const root = ReactDOM.createRoot(document.getElementById(root))
+const root = ReactDOM.createRoot(document.getElementById("root"))
 function App() {
   const path = window.location.pathname;
 
@@ -19,4 +19,4 @@ function App() {
       return <h1>404 Page Not Found</h1>;
   }
 }
-path.render(<App/>)
+root.render(<App/>)
